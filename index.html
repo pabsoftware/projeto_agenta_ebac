@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda telefonica</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,500;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./static/css/main.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+    <header>
+        <img src="./static/img/agenda.png" alt="Agenda">
+        <h1>Genda de contatos</h1>
+    </header> 
+    <form action="" id="form-agenda">
+        <input type="text" id="nome-pessoa" required placeholder="Nome da pessoa">
+        <input type="tel" id="numero-telefone" placeholder="Numero do telefone">
+        <button type="submit"> Adicionar +</button>
+    </form>
+    <table cellspacing = "0">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th> Telefone </th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            
+            
+        </tbody>
+        <tfoot>
+            <tr class="rodape-tabela">
+                <td>Total contatos</td>
+                <td id="total-contatos"></td>
+                
+               
+            </tr>
+        </tfoot>
+    </table>
+
+    <footer>
+
+    </footer>
+    </div>   
+
+</body>
+ <script src="./static/js/main.js"></script>   
+</body>
+</html>
